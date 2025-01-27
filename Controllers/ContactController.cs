@@ -32,7 +32,7 @@ namespace MailingSystem01.Controllers
                     // Configure the SMTP client
                     using (var smtpClient = new SmtpClient("smtp.gmail.com", 587))
                     {
-                        smtpClient.Credentials = new NetworkCredential("testdemonio0@gmail.com", "svkr kucs zojd wbwv"); // Replace with your email and app-specific password
+                        smtpClient.Credentials = new NetworkCredential("testdemonio0@gmail.com", ""); // Replace with your email and app-specific password
                         smtpClient.EnableSsl = true;
 
                         // Send the email
