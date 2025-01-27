@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\MailingSystem01.props" />
+</Project>
